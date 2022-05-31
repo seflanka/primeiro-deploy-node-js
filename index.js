@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 3000;
 
 app.get('/', function (req, res) {
-    res.send('Meu primeiro deploy integrando heroku e github')
+    res.send('A maria sarna de mais')
 })
 
 app.listen(port, () => {
